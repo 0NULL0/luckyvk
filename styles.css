@@ -1,0 +1,213 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+*::selection {
+  background: black;
+  color: rgb(232,59,248);
+}
+
+html, body {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  color: #1255ff;
+  background: black;
+  font-size: calc(0.5em + 1vh);
+  font-family: 'Roboto';
+}
+
+header {
+  display: flex;
+  width: 100vw;
+  background: #2c2c2c;
+  border-bottom: 3px solid white;
+  padding-right: 3vw;
+}
+
+#logo {
+  user-select: none;
+}
+
+#online {
+  line-height: 5em;
+  margin-left: auto;
+}
+
+#point {
+  color: lime;
+  font-weight: 700;
+}
+
+#number {
+  color: lime;
+}
+
+img {
+  width: 5em;
+  vertical-align: middle;
+}
+
+#l, #v {
+  font-size: 2em;
+  font-family: 'Dancing Script', cursive;
+
+}
+
+#l {
+  color: rgb(232,59,248);
+  animation: color1 4s ease-in-out infinite;
+}
+
+#v {
+  color: #1255ff;
+  animation: color2 4s ease-in-out infinite;
+}
+
+
+@keyframes color1 {
+  50% {
+    color: #1255ff;
+  }
+}
+
+@keyframes color2 {
+  50% {
+    color: rgb(232,59,248);
+  }
+}
+
+
+main {
+  display: flex;
+  border-bottom: 3px solid white;
+}
+
+article {
+  padding: 3%;
+  border-right: 3px solid white;
+  width: 60vw;
+  word-break: break-all;
+}
+
+aside {
+  padding: 3% 1%;
+  width: 40vw;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
+h1 {
+  color: gold;
+  font-size: 2em;
+}
+h3 {
+  color: white;
+  font-size: 1.3;
+}
+.publics {
+  margin-bottom: 5%;
+  padding: 0.5em 0.5em;
+  background: #2c2c2c;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  font-size: 1.2em;
+}
+
+.publics > a {
+  color: white;
+  text-decoration: none;
+}
+
+#lsub {
+  color: lime;
+  text-decoration: none;
+  transition: 1s;
+}
+
+#lsub:hover {
+  color: #1255ff;
+  text-decoration: none;
+}
+
+#send {
+  text-align: center;
+  display: flex;
+  border-bottom: 2px solid white;
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+form {
+  margin: 0 auto;
+}
+
+#tel {
+  padding-left: 3px;
+  margin-left: 0;
+  width: 70vw;
+  background: black;
+  height: 3em;
+  color: gold;
+  border: 1px solid #2c2c2c;
+  border-radius: 5px;
+}
+
+select {
+  margin-right: 0;
+  border-radius: 5px;
+  background: black;
+  border: 1px solid #2c2c2c;
+  color: lime;
+  height: 3em;
+  width: 20vw;
+}
+
+#pass {
+  padding-left: 3px;
+  width: 90vw;
+  border: 1px solid #2c2c2c;
+  border-radius: 5px;
+  color: gold;
+  background: black;
+  height: 3em;
+}
+
+#submit {
+  background: black;
+  color: #1255ff;
+  width: 50vw;
+  height: 2em;
+  border: 3px solid #2c2c2c;
+  font-size: 1.5em;
+  border-radius: 5px;
+}
+
+footer {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-size: .7em;
+  display: flex;
+}
+
+footer > p > a {
+  color: lime; 
+  text-decoration: none;
+  transition: 1s;
+  word-break: break-all;
+}
+
+footer > p {
+  margin: 0 auto;
+}
+
+footer > a:hover {
+  color: #1255ff;
+}

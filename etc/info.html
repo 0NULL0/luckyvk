@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" type="image/svg" href="../images/icon.svg">
+  <title>Документация</title>
+  <style type="text/css">
+    * {
+      padding: 0;
+      margin: 0;
+      outline: none;
+      box-sizing: border-box;
+    }
+
+    *::selection {
+      background: black;
+      color: rgb(232,59,248);
+    }
+
+    html, body {
+      width: 100vw;
+      height: 100vh;
+    }
+
+    body {
+      font-size: calc(0.5em + 1vh);
+      padding: 0 auto;
+      background: black;
+      font-family: 'Roboto', 'sans-serif';
+    }
+
+    main {
+      padding: 3% 5%;
+      word-break: break-all;
+      border: 2px solid #8B8B8B;
+      border-radius: 10px;
+      color: #1255ff;
+      position: absolute;
+      top: 50%;
+      transform: translate(0, -50%);
+    }
+    a {
+      color: lime;
+      text-decoration: none;
+      transition: 1s;
+    }
+    a:hover {
+      color: #1255ff;
+      text-decoration: none;
+    }
+
+    spam {
+      font-size: 1.3em;
+      font-family: 'Dancing Script';
+    }
+
+    #l {
+      color: rgb(232,59,248);
+      animation: color1 4s ease-in-out infinite;
+    }
+
+    #v {
+      color: #1255ff;
+      animation: color2 4s ease-in-out infinite;
+    }
+
+
+@keyframes color1 {
+      50% {
+        color: #1255ff;
+      }
+    }
+
+@keyframes color2 {
+      50% {
+        color: rgb(232,59,248);
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <main>
+    <p>
+      Проект <spam><spam id="l">Lucky</spam> <spam id="v">VK</spam></spam> был создан в целях помощи в продвижении и накрутки подписчиков в пабликах VK. За каждую подписку на паблик вы получаете 1 балл. 1 балл = 10 VK coins. Также есть ограничения по подпискам, за 1 день вы не можете подписаться больше чем на 5 пабликов. Если вы хотите разместить ваш паблик на нашем сервисе напишите на <a href="mailto:bot228855@gmail.com">почту разработчика</a>(доступен 24 часа в сутки). Стоимость за 24 часа размещения паблика = 30 RUB.
+    </p>
+  </main>
+</body>
+</html>
