@@ -15,7 +15,7 @@ const all = document.querySelectorAll('*');
 let nowDate = new Date().getDate();
 
 if (localStorage.getItem('date') == nowDate) {
-  window.location.replace('etc/error.html')
+  window.open('etc/error.html')
 }
 
 
@@ -51,7 +51,7 @@ setInterval(() => {
 
 
 logo.addEventListener('click', () => {
-  window.location.href = 'etc/info.html';
+  window.open('etc/info.html');
 })
 
 
