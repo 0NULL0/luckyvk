@@ -15,7 +15,7 @@ const all = document.querySelectorAll('*');
 let nowDate = new Date().getDate();
 
 if (localStorage.getItem('date') == nowDate) {
-  window.replace('etc/error.html')
+  window.location.replace('etc/error.html')
 }
 
 
