@@ -71,7 +71,7 @@ let balls = 0;
 
 for (let x = 0; x < btns.length; x++) {
   btns[x].addEventListener('click', () => {
-    links[x].replace(random());
+    links[x].href = random();
 
     btns[x].disabled = true;
 
