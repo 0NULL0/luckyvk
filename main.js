@@ -85,6 +85,6 @@ for (let x = 0; x < btns.length; x++) {
       ++balls
       score.textContent = balls;
       links[x].removeAttribute('href');
-    }, 2000)
+    }, 3000)
   })
 }
