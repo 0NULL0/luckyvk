@@ -76,7 +76,8 @@ for (let x = 0; x < btns.length; x++) {
     btns[x].disabled = true;
 
     if (x == 4) {
-      let day = new Date().getHours();
+      let close = new Date().getHours();
+      let open = new Date().getHours() + 24;
       localStorage.setItem('date', day)
     }
 
