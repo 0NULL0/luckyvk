@@ -12,7 +12,9 @@ const links = document.querySelectorAll('.publics > a');
 
 const all = document.querySelectorAll('*');
 
-if ( localStorage.getItem('close') < localStorage.getItem('open') ) window.location.replace('etc/error.html')
+if ( localStorage.getItem('close') < localStorage.getItem('open') ) {
+  window.location.replace('etc/error.html')
+}
 
 
 
