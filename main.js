@@ -78,7 +78,7 @@ for (let x = 0; x < btns.length; x++) {
     if (x == 4) {
       let close = new Date().getHours();
       let open = new Date().getHours() + 24;
-      localStorage.setItem('close', day);
+      localStorage.setItem('close', close);
     }
 
 
