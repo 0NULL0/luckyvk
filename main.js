@@ -12,7 +12,7 @@ const links = document.querySelectorAll('.publics > a');
 
 const all = document.querySelectorAll('*');
 
-let nowDate = new Date().getDate();
+let nowDate = new Date().getHours();
 
 if (localStorage.getItem('date') == nowDate) {
   window.location.replace('etc/error.html')
